@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @TableName("items")
-public class Item {
+public class Menu {
     @TableId(type = IdType.AUTO)
     private Long itemId;
     private String name;
